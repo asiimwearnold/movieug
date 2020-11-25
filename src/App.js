@@ -1,4 +1,5 @@
-import jumbotron from "./components/jumbotron";
+import React from "react";
+import Jumbotron from "./components/Jumbotron";
 
 import "./App.css";
 
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Jumbotron />
         </p>
         <a
           className="App-link"
