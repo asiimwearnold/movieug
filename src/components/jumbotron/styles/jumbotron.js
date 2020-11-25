@@ -8,6 +8,7 @@ export const Inner = styled.div`
   max-width: 1100px;
   margin: auto;
   width: 100%;
+  
 
   @media (max-width: 100px) {
     flex-direction: column;
