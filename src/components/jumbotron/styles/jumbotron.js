@@ -9,8 +9,10 @@ export const Inner = styled.div`
   margin: auto;
   width: 100%;
   
-
+ 
   @media (max-width: 100px) {
     flex-direction: column;
   }
 `;
+
+export const Container = styled.div

@@ -1,26 +1,26 @@
 import React from "react";
+import JumboData from '.fixtures/jumbo';
 import Jumbotron from "./components/Jumbotron";
+
 
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          <Jumbotron />
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Lets build a movie store
-        </a>
-      </header>
-    </div>
-  );
+  return 
+    
+      return(
+        <Jumbotron.Container>
+          {JumboData.map((item)=>(
+          <Jumbotron key={item.id} direction={item.direction}>
+
+          </Jumbotron>  
+          ))}
+        </Jumbotron.Container>
+      );
+  
+       
+    
+  
 }
 
 export default App;
