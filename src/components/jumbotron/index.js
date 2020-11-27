@@ -7,6 +7,7 @@ function Jumbotron({children,direction = 'row', ...restProps}) {
     <div>
       <Inner direction = {direction}>
         <p>I am the Jumbo </p>
+        {children}
         
       </Inner>
     </div>
